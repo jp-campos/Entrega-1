@@ -11,6 +11,7 @@ hr{
 main{
     background-color: rgb(241, 241, 241);
     padding-bottom: 5vw;
+    padding-top: 70px;
 
 }
 
@@ -24,7 +25,7 @@ main{
 }
 
 .titulo-morado{
-    color: #5a123f;
+    color: #350c25;
     font-weight: normal;
     margin: 5px;
 }
