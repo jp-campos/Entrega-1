@@ -1,0 +1,346 @@
+html {
+    font-size: calc(60% + 0.5vw);
+    overflow-x: hidden;
+  }
+
+hr{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+  
+main{
+    background-color: rgb(241, 241, 241);
+    padding-bottom: 5vw;
+
+}
+
+
+
+
+.titulo-naranja{
+    color: #d49170;
+    font-weight: normal;
+    margin: 5px;
+}
+
+.titulo-morado{
+    color: #5a123f;
+    font-weight: normal;
+    margin: 5px;
+}
+
+#banner {
+    margin:0px ;
+    padding-left: 40px;
+    background-color: #4a4a4a;
+    
+}
+
+/*-------Estilo de listas, links, menu de navegación -------*/
+
+
+li.display{
+    margin: 0 0 3vh 0;
+    padding-left: 1em; 
+    text-indent: -.7em;
+    margin-top: 1.5vw;
+    list-style-image: url("assets/bullet.png")
+}
+
+li.flecha{
+    
+    padding-left: 1em; 
+    text-indent: -.7em;
+    list-style-image: url("assets/bullet2.png")
+}
+
+.link{
+    color: rgb(95, 54, 1) !important; 
+}
+
+.link:hover{
+    color: #4B38D9 !important;
+}
+
+.barra-nav{
+    background-color: #fffcfc;
+    border-bottom-color: #a36507;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    display: flex; 
+}
+
+.boton-nav{
+    font-size: 1.3em;
+    color: rgb(95, 54, 1);      
+}
+
+
+.boton-nav:hover{
+    
+    background-color: #f0f0f0;
+    border-bottom-color: #d68100;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    color: #4B38D9 !important;
+
+}
+
+
+/*------- END Estilo de listas, links, menu de navegación -------*/
+
+
+/*--------Contact info--------*/
+.header-contact{
+    border-bottom: 1px groove darkmagenta;
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.contacto{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+@media (min-width: 992px){
+    .dotted{
+        border-bottom: 2px dotted grey; 
+        border-left: 2px dotted grey; 
+    }
+}
+
+
+@media (max-width: 992px) {
+    .dotted {
+        border-top: 2px dotted grey;
+    }
+  }
+  .contacto{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.cancion{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+
+}
+
+
+.contenedor-iframe {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  }
+  
+  /* Then style the iframe to fit in the container div with full height and width */
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.icono{
+    margin-right: 6vm;
+}
+
+
+
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d49170' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+   
+.carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d49170' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+
+/*---Dibujo celular---*/
+
+.cel {
+    padding: 1.2vw;
+    border-radius: 5%;
+    border: 1px solid grey;
+
+}
+
+
+.cel-arriba{
+    display: flex;
+    justify-content: center;
+}
+
+.cel-abajo{
+    margin-top: 10px;
+    padding-top: 10px;
+    display: flex;
+    border-top: 1px solid rgb(99, 99, 99);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.dot-arriba{
+    height: 0.3vw;
+    width: 4vw;
+    background-color: rgb(228, 228, 228);
+    border-radius: 15%; 
+    margin: 0 0 5px 0;
+}
+
+.dot {
+    height: 2.3vw;
+    width: 2.3vw;
+    background-color: #bbb;
+    border-radius: 50%;
+    
+  }
+
+@media (max-width: 576px){
+    .dot {
+        height: 20px;
+        width: 20px;
+        background-color: #bbb;
+        border-radius: 50%;
+      }
+}
+
+@media (max-width: 576px){
+    .dot-arriba {
+        height: 5px;
+        width: 40px;
+        background-color:  rgb(228, 228, 228);;
+        border-radius: 15%;
+        margin: 0 0 5px 0;
+      }
+}
+
+
+
+
+
+
+/*--Proyectos--*/
+
+.proj-head{
+    background-color: #fffcfc;
+    box-shadow: 2px 9px 12px -4px rgb(235, 235, 235);
+    padding: 10px 0px;
+    border-top: 1px solid rgb(224, 224, 224);
+}
+
+
+.proj-body{
+    padding: 5vw;
+}
+
+h1.proyectos{
+    display:inline;
+    margin-right: 4vw;
+}
+
+
+
+.sub-col{
+    padding: 0.8vw;
+    align-self: center;
+    height:68%;
+   
+}
+
+
+
+
+
+/*------Dibujito comand prompt-----*/
+
+.codigo-window-rojo{
+    height: 15px;
+    width: 15px;    
+    background-color: #ff6058;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.codigo-window-amarillo{
+    height: 15px;
+    width: 15px;
+    background-color: #ffc231;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.codigo-window-verde{
+    height: 15px;
+    width: 15px;
+    background-color: #29c840;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+
+.codigo-header{
+    background-color: #dbd9db; 
+    display: flex;
+    width: 100%;
+ 
+}
+
+
+.codigo-side{
+    height: 100%;
+    background-color: #252526;
+}
+
+.codigo-body{
+    background-color: #1E1E1E;
+    font-family: "Lucida Console", Courier, monospace;
+    color: white;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+
+.codigo-todo{
+    color: #519CD6; 
+}
+
+.codigo-comment{
+    color:#6A9955;
+}
+
+
+
+
+
+.footer{
+    background-color: lightgrey;
+    text-align: center;
+
+}
+
+.footer-copyright{
+    text-decoration: line-through;
+
+}
+
+
